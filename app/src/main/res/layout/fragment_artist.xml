@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/background_color"
+    tools:context=".search.view.ui.ArtistActivity">
+
+    <EditText
+        android:id="@+id/etSearch"
+        style="@style/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_small_size"
+        android:layout_marginLeft="@dimen/margin_semi_xlarge"
+        android:layout_marginRight="@dimen/margin_semi_xlarge"
+        android:layout_marginTop="@dimen/margin_semi_xlarge"
+        android:digits="@string/searchInputValidation"
+        android:hint="@string/search"
+        android:inputType="textPersonName"
+        android:maxLength="@integer/upi_character_input_limit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_semi_xlarge"
+        android:layout_marginRight="@dimen/margin_semi_xlarge"
+        android:layout_marginTop="@dimen/margin_semi_xlarge"
+        android:text="@string/topArtists"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSearch" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvArtist"
+        android:layout_width="@dimen/match_constraints"
+        android:layout_height="@dimen/match_constraints"
+        android:layout_marginTop="@dimen/margin_large"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLable"
+        tools:itemCount="50"
+        tools:listitem="@layout/item_artist" />
+
+    <include
+        android:id="@+id/progressBarLayout"
+        layout="@layout/progress_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

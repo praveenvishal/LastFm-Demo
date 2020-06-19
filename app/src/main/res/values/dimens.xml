@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_small_size">40dp</dimen>
+    <dimen name="padding_medium">24dp</dimen>
+    <dimen name="padding_small">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_xxlarge">32dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_semi_large">12dp</dimen>
+    <dimen name="margin_semi_xlarge">24dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="line_spacing_8">8sp</dimen>
+    <dimen name="match_constraints">0dp</dimen>
+    <dimen name="height_artist_card">188dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#1e1e1e</color>
+    <color name="colorPrimaryDark">#171717</color>
+    <color name="colorAccent">#a990d0</color>
+    <color name="light_grey_shade">#14ffffff</color>
+    <color name="secondary_tab_indicator_color">#33ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background_color">#1e1e1e</color>
+    <color name="color_overlay_heading">#7000</color>
+
+</resources>

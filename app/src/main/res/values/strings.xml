@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LastFM-Search</string>
+    <string name="searchInputValidation">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz0123456789.-@</string>
+    <string name="search">Search Artists</string>
+    <string name="topArtists">TOP ARTISTS</string>
+    <string name="artists">ARTIST</string>
+    <string name="searchResults">SEARCH RESULTS</string>
+    <string name="s_empty">No Albums</string>
+    <string name="textArtistTitle">Artist Name : %s</string>
+    <string name="topAlbums">MY TOP ALBUMS</string>
+</resources>
